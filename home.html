@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Website</title>
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="lightslider.css">
+<!--js-link---------------------------->
+<script src="js/JQuery3.3.1.js"></script>
+<script src="js/lightslider.js"></script>
+<!--fav-icon------->
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<!--using FontAwesome--------->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<!--navigation----->
+	<nav>
+		<!-----logo------>
+		<a href="#" class="logo">
+			<img src="img/logo.jpg"/>
+		</a>
+		<!--menu--btn---------------->
+		<input type="checkbox" class="menu-btn" id="menu-btn"/>
+		<lable class="menu-icon" for="menu-btn">
+			<span class="nav-icon"></span>
+		</lable>
+		<!--menu------------------->
+		<ul class="menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Movie</a></li>
+			<li><a href="#">TV Shows</a></li>
+			<li><a href="#">Hollywood</a></li>
+			<li><a href="#">Horror</a></li>
+		</ul>
+		<!---search---->
+		<div class="search">
+			<input type="text" placeholder="Find Your Favorite Movies"/>
+			<!---search-icon---->
+			<i class="fas fa-search"></i>
+		</div>
+	</nav>
+	<section id="main">
+		<!--showcase------------------->
+		<!--heading------------>
+		<h1 class="showcase-heading">Showcase</h1>
+
+		<ul id="autoWidth" class="cs-hidden">
+			<!--box-1----------------------------->
+  			<li class="item-a">
+  				<!--showcase-box------------------>
+			<div class="showcase-box">
+				<img src="img/m1.jpg">
+			</div>
+  			</li>
+  			<!--box-2----------------------------->
+  			<li class="item-b">
+  				<!--showcase-box------------------>
+			<div class="showcase-box">
+				<img src="img/m2.jpg">
+			</div>
+  			</li>
+  			<!--box-3----------------------------->
+  			<li class="item-c">
+  				<!--showcase-box------------------>
+			<div class="showcase-box">
+				<img src="img/m3.jpg">
+			</div>
+  			</li>
+  			<!--box-4----------------------------->
+  			<li class="item-d">
+  				<!--showcase-box------------------>
+			<div class="showcase-box">
+				<img src="img/m4.jpg">
+			</div>
+  			</li>
+  			<!--box-5----------------------------->
+  			<li class="item-e">
+  				<!--showcase-box------------------>
+			<div class="showcase-box">
+				<img src="img/m5.jpg">
+			</div>
+  			</li>
+  			
+
+		</ul>
+
+
+
+
+		
+	</section>
+	<!--newest-movies-------->
+	<section id="newest">
+		<h2 class="newest-heading">Newest Movies</h2>
+		<!--slider----------------->
+		<ul id="autoWidth2" class="cs-hidden">
+			<!--slide-box-1---------------------->
+  			<li class="item-a"></li>
+  				<div class="newest-box">
+  					<!--img---------------------->
+  					<div class="newest-b-img">
+  						<img src="img/m6.jpg">
+  					</div>
+  					<!--text----------->
+  					<div class="newest-b-text">
+  						<strong>Sinister 2012</strong>
+  						<p>Horror Movie</p>
+  					</div>
+
+  				</div>
+  			</li>
+  			<!--slide-box-2---------------------->
+  			<li class="item-b"></li>
+  				<div class="newest-box">
+  					<!--img---------------------->
+  					<div class="newest-b-img">
+  						<img src="img/m7.jpg">
+  					</div>
+  					<!--text----------->
+  					<div class="newest-b-text">
+  						<strong>Safe Haven</strong>
+  						<p>Romance/Drama</p>
+  					</div>
+
+  				</div>
+  			</li>
+  			<!--slide-box-3---------------------->
+  			<li class="item-c"></li>
+  				<div class="newest-box">
+  					<!--img---------------------->
+  					<div class="newest-b-img">
+  						<img src="img/m8.jpg">
+  					</div>
+  					<!--text----------->
+  					<div class="newest-b-text">
+  						<strong>THE Conjuring</strong>
+  						<p>Horror/Thriller</p>
+  					</div>
+
+  				</div>
+  			</li>
+  			<!--slide-box-4---------------------->
+  			<li class="item-d"></li>
+  				<div class="newest-box">
+  					<!--img---------------------->
+  					<div class="newest-b-img">
+  						<img src="img/m9.jpg">
+  					</div>
+  					<!--text----------->
+  					<div class="newest-b-text">
+  						<strong>Olympus Has Fallen</strong>
+  						<p>Action Movie</p>
+  					</div>
+
+  				</div>
+  			</li>
+  			<!--slide-box-5---------------------->
+  			<li class="item-e"></li>
+  				<div class="newest-box">
+  					<!--img---------------------->
+  					<div class="newest-b-img">
+  						<img src="img/m10.jpg">
+  					</div>
+  					<!--text----------->
+  					<div class="newest-b-text">
+  						<strong>Green Lantern</strong>
+  						<p>Action/Adventure</p>
+  					</div>
+
+  				</div>
+  			</li>
+  			<!--slide-box-6---------------------->
+  			<li class="item-f"></li>
+  				<div class="newest-box">
+  					<!--img---------------------->
+  					<div class="newest-b-img">
+  						<img src="img/m11.jpg">
+  					</div>
+  					<!--text----------->
+  					<div class="newest-b-text">
+  						<strong>Friday THE 13TH</strong>
+  						<p>Horror/Mystery</p>
+  					</div>
+
+  				</div>
+  			</li>
+  			<!--slide-box-7---------------------->
+  			<li class="item-g"></li>
+  				<div class="newest-box">
+  					<!--img---------------------->
+  					<div class="newest-b-img">
+  						<img src="img/m12.jpg">
+  					</div>
+  					<!--text----------->
+  					<div class="newest-b-text">
+  						<strong>Karate Kid</strong>
+  						<p>Martial Arts/Teen/Adventure</p>
+  					</div>
+
+  				</div>
+  			</li>
+		</ul>
+	</section>
+	<!--movies--------------------------->
+	<div class="movies-heading">
+		<h2>Movies</h2>
+	</div>
+	<section id="movies-list">
+		<!-box-1---------------------->
+		<div class="movies-box">
+			<!--img--------------------->
+			<div class="movies-img">
+				<img src="img/m13.jpg">
+			</div>
+			<!--text----------------->
+			<a href="#">
+				WATCH Freedom Writers
+			</a>
+		</div>
+		<!-box-2---------------------->
+		<div class="movies-box">
+			<!--img--------------------->
+			<div class="movies-img">
+				<img src="img/m14.jpg">
+			</div>
+			<!--text----------------->
+			<a href="#">
+				WATCH Step Brothers
+			</a>
+		</div>
+		<!-box-3---------------------->
+		<div class="movies-box">
+			<!--img--------------------->
+			<div class="movies-img">
+				<img src="img/m15.jpg">
+			</div>
+			<!--text----------------->
+			<a href="#">
+				DEAR JOHN
+			</a>
+		</div>
+		<!-box-4---------------------->
+		<div class="movies-box">
+			<!--img--------------------->
+			<div class="movies-img">
+				<img src="img/m16.jpg">
+			</div>
+			<!--text----------------->
+			<a href="#">
+				WATCH THEORY OF EVERYTHING
+			</a>
+		</div>
+		<!-box-5---------------------->
+		<div class="movies-box">
+			<!--img--------------------->
+			<div class="movies-img">
+				<img src="img/m17.jpg">
+			</div>
+			<!--text----------------->
+			<a href="#">
+				WATCH THE IRISHMAN
+			</a>
+		</div>
+		<!-box-6---------------------->
+		<div class="movies-box">
+			<!--img--------------------->
+			<div class="movies-img">
+				<img src="img/m18.jpg">
+			</div>
+			<!--text----------------->
+			<a href="#">
+				WATCH LES MISERABLES
+			</a>
+		</div>
+		<!-box-7---------------------->
+		<div class="movies-box">
+			<!--img--------------------->
+			<div class="movies-img">
+				<img src="img/m19.jpg">
+			</div>
+			<!--text----------------->
+			<a href="#">
+				WATCH THE PROPOSAL
+			</a>
+		</div>
+		<!-box-8---------------------->
+		<div class="movies-box">
+			<!--img--------------------->
+			<div class="movies-img">
+				<img src="img/m20.jpg">
+			</div>
+			<!--text----------------->
+			<a href="#">
+				WATCH GROWN UPS
+			</a>
+		</div>
+	</section>
+
+	<!-btns---------------->
+		<div class="btns">
+			<a href="#">Previous</a>
+			<a href="#">Next</a>
+
+		</div>
+		<!--footer-------------->
+		<footer>
+			<p>Group C Movie Database</p>
+			<p>DBMS 2021</p>
+		</footer>
+
+
+
+
+
+
+	<!--slider-script-------------------->
+	<script>
+		$(document).ready(function() {
+    $('#autoWidth,#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+        } 
+    });  
+  });
+	</script>
+</body>
+</html>
